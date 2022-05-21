@@ -112,12 +112,3 @@ class MyDataclass(metaclass=MyDataclassMetaclass):
     pass
 
 
-class MyClass(MyDataclass):
-    a: str
-    b: int
-
-    def meth(self):
-        print(self.a, self.d)
-
-
-
