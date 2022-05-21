@@ -1,4 +1,8 @@
 """A custom, minimal, incomplete implementation of Python's dataclasses. The current features:
+
+ - Instance attributes can be specified using class attribute syntax.
+ - Custom `__init__` and `__str__` methods are auto-generated to handle initialization,
+     and the custom `__init__` allows for a `__post_init__` method to be defined to customize initialization.
 """
 
 from itertools import zip_longest
